@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div>
+        <span id="test_jsp"></span>
+    </div>
+
+    <script>
+        var test_dic = {"name":"pop","age":120,"gender":"female"};
+        var mySpan = document.getElementById("test_jsp");
+        mySpan.innerText = test_dic.name+test_dic['age'];
+        console.log(test_dic.age,test_dic.name);
+    </script>
+
+</body>
+</html>
