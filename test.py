@@ -1261,8 +1261,13 @@ import re
 # # b.append(2)
 # print(a,b)
 
-print("{0:.02f} is a {1:d} {0:.03f} {2}".format(1.2312,100,'haha'),end='')
-print("\r{mf:.02f} is a {md:d} {mf:.03f} {ms}".format(mf=1.231,md=120,ms='hopi'))
-print("{mf} is a {md} {mf} {ms}".format(mf=1.231,md=120,ms='hopi'))
-print('name\tage\tgender\tschool')
-print('zx','\t',100,'\t','male','\t','JLU')
+# print("{0:.02f} is a {1:d} {0:.03f} {2}".format(1.2312,100,'haha'),end='')
+# print("\r{mf:.02f} is a {md:d} {mf:.03f} {ms}".format(mf=1.231,md=120,ms='hopi'))
+# print("{mf} is a {md} {mf} {ms}".format(mf=1.231,md=120,ms='hopi'))
+# print('name\tage\tgender\tschool')
+# print('zx','\t',100,'\t','male','\t','JLU')
+
+import random
+
+res = random.choices([1,2,3,'ew'],3)
+print(res)
